@@ -1,0 +1,121 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+abbr,acronym { border:0;
+}
+
+a{
+    text-decoration:none;
+    color:#f2f2f2;
+}
+html{
+    font-size: 100%;
+}
+body{
+    background:#0c2538;/*#002B36 #0c2538 galben-#eeee99*/
+    color: #f2f2f2;
+    width:100%;
+    font: 1.2em/1.5 monospace;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+li, .curent-question{
+    margin: .2em;
+    list-style-position: inside;
+}
+
+form{
+    max-width: 900px;
+}
+
+.finish{
+    color: #00A0B0;
+}
+
+input, textarea, button, label{
+    box-sizing: border-box;
+    font-family: monospace;
+    border:0;
+    color: #eee;
+    background: none;
+    display: block;
+    width: 100%;
+}
+input, textarea{
+    padding:5px;
+    transition: all .3s ease-in;
+    vertical-align:bottom;
+}
+
+button{
+    width:10%;
+    padding:.8%;
+    float:right;
+    color:#f2f2f2;
+    display: none;
+}
+hr{
+    margin:.4em 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgba(0,0,0,.2);
+    padding: 0;
+}
+
+footer{
+    //position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.score{
+    background: #253030;
+    padding: 0 .3em;
+    float:left;
+}
+
+footer small{
+    float: right;
+}
+.corect{
+    color: #4deaac;
+}
+
+.wrong{
+    color: #f93d6d;
+}

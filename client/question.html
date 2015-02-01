@@ -1,0 +1,11 @@
+<template name="question">
+        {{#with questions}}
+            <form class="answer">
+                <hr>
+                <div class="curent-question">{{text}}</div>
+                <input type="text" name="answer" placeholder="t or f" autocomplete="off" autofocus="autofocus"/>
+                <input type="hidden" name="_id" value="{{_id}}" />
+                <button type="submit">Submit</button>
+            </form>
+        {{/with}}
+</template>

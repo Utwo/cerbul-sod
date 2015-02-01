@@ -1,0 +1,1 @@
+A simple app made with meteor js framework.
